@@ -1,0 +1,3 @@
+[submodule "src/dotfiles/nvim"]
+	path = src/dotfiles/nvim
+	url = git@github.com:wellavelino/nvim.git
