@@ -1,7 +1,7 @@
 mod brew;
 mod dev;
-use clap::Parser;
 use anyhow::Result;
+use clap::Parser;
 
 #[derive(Parser)]
 #[clap(name = "dotfiles_manager")]
@@ -36,10 +36,7 @@ async fn main() -> Result<()> {
         Command::InstallAllBrew => {
             brew::install_apps(brew::get_all_package_names()).await?;
         }
-        Command::InstallDevSetup => {
-
-        }
-        }
+        Command::InstallDevSetup => {}
     }
 
     Ok(())
