@@ -4,7 +4,7 @@ use anyhow::Result;
 use clap::Parser;
 
 #[derive(Parser)]
-#[clap(name = "dotfiles_manager")]
+#[clap(name = "hephaestus")]
 struct Cli {
     #[clap(subcommand)]
     command: Command,

@@ -1,13 +1,26 @@
 //setup git
 
-//#!/usr/bin/env bash
-//
-//# Setup git
-//
-//while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
-//
 //cp scripts/git/.gitconfig  ~/.gitconfig
 //source ~/.gitconfig
-//
 //cp  scripts/git/.gitignore_global ~/.gitignore_global
 //source ~/.gitignore_global
+
+use std::fs;
+
+fn move_git_config() -> std::io::Result<()> {
+    fs::copy(
+        "../scripts/git/.gitconfig",
+        "get whoami from executing a shell",
+    )?;
+    //runs a source
+    Ok(()); //check for errors in pattern matching.
+}
+
+fn move_git_ignore() -> sd::io::Result<()> {
+    fs::copy(
+        "../scripts/git/.gitconfig",
+        "get whoami from executing a shell",
+    )?;
+    //runs a source
+    Ok(()); //check for errors in pattern matching.
+}
