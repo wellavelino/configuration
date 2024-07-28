@@ -1,3 +1,4 @@
+-- Pull in the wezterm API
 local wezterm = require("wezterm")
 local mux = wezterm.mux
 local config = {}
@@ -13,7 +14,7 @@ config = wezterm.config_builder()
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = "Afterglow"
+config.color_scheme = "terafox"
 
 config.window_background_opacity = 1.0
 config.font = wezterm.font("JetBrains Mono")

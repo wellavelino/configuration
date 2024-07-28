@@ -1,0 +1,32 @@
+# Taps
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+
+# Brew CLI apps
+brew "diff-so-fancy"
+brew "git-extras"
+brew "go"
+brew "jq"
+brew "neovim"
+brew "node"
+brew "postgresql"
+brew "tmux"
+brew "ripgrep" #telescope
+brew "fd" #telescope
+
+# App casks
+cask "1password-cli"
+cask "adobe-creative-cloud"
+cask "google-chrome"
+cask "obsidian"
+cask "postman"
+cask "zoom"
+cask "spotify"
+cask "wezterm"
+cask 
+# Font casks
+cask "font-hack-nerd-font"
+cask "font-inconsolata-for-powerline"
+cask "font-menlo-for-powerline"
