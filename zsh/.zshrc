@@ -18,7 +18,6 @@ plugins=(zsh-nvm)
 source $ZSH/oh-my-zsh.sh
 
 export LANG=en_US.UTF-8
-alias python=/usr/bin/python3
 
 path=(
   /usr/local/opt/openjdk@17/bin

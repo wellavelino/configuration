@@ -3,6 +3,8 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "homebrew/bundle"
+tap "1password/tap"
 
 # Brew CLI apps
 brew "diff-so-fancy"
@@ -18,6 +20,8 @@ brew "jenv"
 brew "git"
 brew "ripgrep" #telescope
 brew "fd" #telescope
+brew "intellij-idea"
+brew "stow" #otherwise this wouldn't make sense =D
 
 #set arguments for all 'brew install --cask' commands
 cask_args appdir: "~/Applications", require_sha: true
@@ -34,5 +38,3 @@ cask "wezterm"
 cask 
 # Font casks
 cask "font-hack-nerd-font"
-cask "font-inconsolata-for-powerline"
-cask "font-menlo-for-powerline"
