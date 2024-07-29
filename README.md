@@ -1,10 +1,6 @@
-# dot-filer
+# trex
 
-Rust project that manages, installs and updates your dotfiles
 
-Porting of https://github.com/wellavelino/ansible_qa_playbook/
-
-instead of using ansible will use Rust.
 
 // Roadmap/ TODO
 Define what you want to installs
