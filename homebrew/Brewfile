@@ -13,8 +13,14 @@ brew "neovim"
 brew "node"
 brew "postgresql"
 brew "tmux"
+brew "nvm"
+brew "jenv"
+brew "git"
 brew "ripgrep" #telescope
 brew "fd" #telescope
+
+#set arguments for all 'brew install --cask' commands
+cask_args appdir: "~/Applications", require_sha: true
 
 # App casks
 cask "1password-cli"
