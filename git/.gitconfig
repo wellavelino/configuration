@@ -1,9 +1,9 @@
 [user]
-  name = 
-  email = 
+  name = Wellington Avelino
+  email = wellington.avelino@outlook.com
 
 [github]
-  user =
+  user = wellavelino
 
 [core]
   excludesfile = ~/.gitignore_global
