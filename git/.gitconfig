@@ -18,7 +18,7 @@
 
 [rebase]
 	autoStash = true ##reapply after
-	missingCommitsCheck = warm
+	missingCommitsCheck = warn
 
 [core]
 
