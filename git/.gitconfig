@@ -1,13 +1,40 @@
 [user]
-  name = Wellington Avelino
-  email = wellington.avelino@outlook.com
+  name = 
+  email = 
 
 [github]
-  user = wellavelino
+  user = 
+
+[branch]
+	autosetuprebase = always
+
+[status]
+	branch = true
+	showStash = true
+
+[pull]
+	default = current
+	rebase = true
+
+[rebase]
+	autoStash = true ##reapply after
+	missingCommitsCheck = warm
 
 [core]
+
+[diff]
+	context = 3
+	renames = copies
+	interHunkContext = 10
+
+[credential]
+	helper = osxkeychain
+
+
+[core]
+  autocrfl = input
   excludesfile = ~/.gitignore_global
-  editor = nano
+  editor = nvim
   filemode = false
   trustctime = false
   autocrlf = input
@@ -28,6 +55,7 @@
   sts = status -sb
   unstage = reset --hard HEAD
 
+
 [color]
   ui = auto
 [color "branch"]
@@ -36,18 +64,19 @@
   remote = green
 [color "diff"]
   meta = yellow bold
-  frag = magenta bold
-  old = red bold
-  new = green bold
+  frag = magenta reverse
+  old =  red bold
+  new = green reverse
 [color "status"]
-  added = yellow
-  changed = green
-  untracked = cyan
+  added = yellow reverse
+  changed = red reverse
+  untracked = cyan reverse 
 [color "diff-highlight"]
   oldNormal = red bold
   oldHighlight = red bold 52
-  newNormal = green bold
-  newHighlight = green bold 22
+  newNormal = purple bold
+  newHighlight = purple bold 22
+
 
 [credential]
   helper = osxkeychain
